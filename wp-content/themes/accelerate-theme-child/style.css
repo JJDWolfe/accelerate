@@ -57,3 +57,131 @@
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+/***Case Studies***/
+
+.case-study-sidebar{
+    float:left;
+    width: 30%;
+}
+
+.case-study-images{
+    float:left;
+    width:60%;
+}
+.case-study-images img{
+    display: block;
+    margin-bottom: 50px;
+    border:1px solid #dddddd;
+}
+
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+    float: left;
+}
+
+article.case-study{
+    float:none;
+    display: block
+}
+
+/****BACK TO WORK****/
+
+#navigation {
+	background: #fff;
+	border: solid #bfbfbf;
+	border-width: 1px 0;
+	clear: both;
+	font: .8em/4.08 'OpenSans', Arial, sans-serif;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 5em;
+	text-align: center;
+}
+#navigation .left {
+	display: inline;
+	float: left;
+}
+#navigation .right {
+	display: inline;
+	float: right;
+}
+#navigation .left a,
+#navigation .right a {
+	color: #fea187;
+	text-decoration: none;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+#navigation .left a span,
+#navigation .right a span {
+	color: #150300;
+}
+#navigation .left a span {
+	padding-left: .5em;
+}
+#navigation .right a span {
+	padding-right: .5em;
+}
+#navigation .left a:hover,
+#navigation .right a:hover {
+	text-decoration: none;
+}
+#navigation .left a:hover span,
+#navigation .right a:hover span {
+	text-decoration: underline;
+}
+#navigation .pagination {
+	display: none;
+	color: #a6a6a6;
+}
+
+/* media queries */
+@media (min-width: 400px) {
+	#navigation .pagination {
+		display: inline;
+	}
+}
+/***** FEATURED WORK******/
+
+.featured-work {
+    height: 30%;
+}
+
+.site-content{
+    width: 90%;
+   max-width: 960px;
+   margin: 0 auto;
+}
+
+.featured-work h4 {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.homepage-featured-work {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin: 0 0 5% 0;
+}
+
+ul {
+    list-style-type: none;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.individual-featured-work h3 {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+   

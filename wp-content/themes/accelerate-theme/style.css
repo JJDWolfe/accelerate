@@ -614,6 +614,23 @@ a.button, a.button:link {
 }
 /* End HOMEPAGE STYLES */
 
+/***Case Studies***/
+
+aside.case-study-sidebar{
+    float:left;
+    width: 300px;
+}
+
+div.case-study-images{
+    float:left;
+    width:606px;
+}
+div.case-study-images img{
+    display: block;
+    margin-bottom: 50px;
+    border:1px solid #dddddd;
+}
+
 /* FOOTER STYLES */
 .site-footer {
 	border-top: 1px solid #bfbfbf;
