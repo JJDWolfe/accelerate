@@ -63,6 +63,7 @@
 .case-study-sidebar{
     float:left;
     width: 30%;
+    margin: 0 40px 0 0;
 }
 
 .case-study-images{
@@ -70,7 +71,6 @@
     width:60%;
 }
 .case-study-images img{
-    display: block;
     margin-bottom: 50px;
     border:1px solid #dddddd;
 }
@@ -82,8 +82,8 @@ div.case-study-images img {
 }
 
 article.case-study{
-    float:none;
-    display: block
+    display: block;
+    clear: both;
 }
 
 /****BACK TO WORK****/
@@ -146,23 +146,11 @@ article.case-study{
 }
 /***** FEATURED WORK******/
 
-.featured-work {
-    height: 30%;
-}
-
-.site-content{
-    width: 90%;
-   max-width: 960px;
-   margin: 0 auto;
-}
-
 .featured-work h4 {
-    font-size: 16px;
-    font-family: 'Montserrat';
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 5%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'Montserrat';
 }
 
 .homepage-featured-work {
@@ -181,7 +169,14 @@ ul {
 
 .individual-featured-work h3 {
     font-size: 16px;
-    font-weight: normal;
-    text-align: center;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  margin-top: 5px;
+  color: gray;
+text-align: center;
+}
+
+.individual-featured-work{
+    padding-left: 10px;
 }
    
