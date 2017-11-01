@@ -147,10 +147,12 @@ article.case-study{
 /***** FEATURED WORK******/
 
 .featured-work h4 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 16px;
-  font-family: 'Montserrat';
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    justify-content: center;
+    
 }
 
 .homepage-featured-work {
@@ -179,4 +181,61 @@ text-align: center;
 .individual-featured-work{
     padding-left: 10px;
 }
-   
+
+/****** NINJA FORM ******/
+
+#nf-field-1-label,
+#nf-field-2-label,
+#nf-field-3-label {
+    font-size: 14px;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+#nf-field-1-wrap,
+#nf-field-1, nf-field-element {
+    float: left;
+    width: 47%;
+    min-width: 300px;
+    height: 35px;
+    display: block;
+}
+
+/* Email field input */
+#nf-field-2-wrap,
+#nf-field-2, nf-field-element {
+    float: left;
+    width: 47%;
+    min-width: 300px;
+    height: 35px;
+    margin-bottom: 60px;
+}
+
+.nf-after-field{
+    clear: both;
+}
+
+#nf-field-3 {
+  border: 1px solid #BFBFBF;
+
+}
+
+#nf-field-4 {
+  background-color: #45ac9d;
+  min-width: 200px;
+  height: 50px;
+  color: #ffffff;
+}
+
+.nf-form-fields-required {
+  display: none;
+}
+
+#nf-submit-1 {
+  float: right;
+}
+
+#nf-form-1-response-msg {
+  color: #45ac9d;
+  font-weight: bold;
+}
