@@ -110,7 +110,7 @@ article.case-study{
 }
 #navigation .left a,
 #navigation .right a {
-	color: #fea187;
+	color: #45ac9d;
 	text-decoration: none;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -145,6 +145,10 @@ article.case-study{
 	}
 }
 /***** FEATURED WORK******/
+
+.featured-work .site-content{
+    display:block;
+}
 
 .featured-work h4 {
     text-align: center;
@@ -184,58 +188,97 @@ text-align: center;
 
 /****** NINJA FORM ******/
 
-#nf-field-1-label,
-#nf-field-2-label,
-#nf-field-3-label {
-    font-size: 14px;
-    font-weight: normal;
-    padding-bottom: 10px;
-}
-
-#nf-field-1-wrap,
-#nf-field-1, nf-field-element {
-    float: left;
-    width: 47%;
-    min-width: 300px;
-    height: 35px;
-    display: block;
-}
-
-/* Email field input */
-#nf-field-2-wrap,
-#nf-field-2, nf-field-element {
-    float: left;
-    width: 47%;
-    min-width: 300px;
-    height: 35px;
-    margin-bottom: 60px;
-}
-
-.nf-after-field{
-    clear: both;
-}
-
-#nf-field-3 {
-  border: 1px solid #BFBFBF;
-
-}
-
-#nf-field-4 {
-  background-color: #45ac9d;
-  min-width: 200px;
-  height: 50px;
-  color: #ffffff;
-}
-
-.nf-form-fields-required {
+.ninja-forms-req-symbol {
   display: none;
 }
 
-#nf-submit-1 {
-  float: right;
+#nf-field-1-container {
+  width: 340px;
+  display: inline-block;
 }
 
-#nf-form-1-response-msg {
+#nf-field-2-container {
+  
+  display: inline-block;
+}
+
+#nf-field-1-wrap {
+  float:left;
+  }
+
+#nf-field-2-wrap {
+  float: left;
+   
+}
+
+.nf-form-title {
+  display: none;
+}
+
+#nf-field-3{
+    width:640px;
+}
+
+#nf-field-4 {
+    float: right;
+    padding: 10px 60px;
+    background-color: #45ac9d;
+    color: white;
+    margin-right: 33%;
+}
+
+.nf-field-label label {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.nf-form-fields-required {
+  margin-top: 5px;
+}
+
+
+/***** SOCIAL MEDIA NAVIGATION *****/
+
+.menu-item i._before, .rtl .menu-item i._after {
+    margin-right: .25em;
+    color: white;
+    background: black;
+    padding: 0.5em;
+    border-radius: 100%;
+}
+.social-media-menu li {
+    display: inline-block;
+}
+.social-media-menu a {
+    width: 2em;
+}
+
+.social-media-menu span {
+    display: none;
+}
+
+.icon-twitter{
+    background-color: black;
+    border-radius:50%;
+}
+
+/***** 404 page *******/
+.page-title {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    color: #45ac9d;
+    text-transform: uppercase;
+    float: right;
+    
+}
+
+.pagt-content {
+    font-size: 18px;
+    font-family: 'Montserrat';
+    color: gray;
+    
+}
+
+.green-text {
   color: #45ac9d;
-  font-weight: bold;
 }

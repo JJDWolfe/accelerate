@@ -15,7 +15,9 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post();
                 $image_1 = get_field("image_1");
                 $size = "full";
-                $services = get_field('services'); ?>
+                $services = get_field('services');
+                $link = get_field('site_link');
+            ?>
             
             <article class="case-study">
                 <aside class="case-study-sidebar">
@@ -28,11 +30,11 @@ get_header(); ?>
                 </aside>
             
                 <div class="case-study-images">
-                    <a href="<?php the_permalink(); ?>">
+                    <a href="<?php the_permalink(); ?>" >
                         <?php if($image_1) { ?>
-	                       <img src="<?php echo wp_get_attachment_image( $image_1, $size ); ?>
+	                       <img src=<?php echo wp_get_attachment_image( $image_1, $size ); ?>
                         <?php } ?>
-                                  </a>
+                    </a>
                 </div>
             </article>
         	<?php endwhile; ?>
