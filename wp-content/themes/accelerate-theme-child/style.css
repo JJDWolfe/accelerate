@@ -239,30 +239,18 @@ text-align: center;
 
 /***** SOCIAL MEDIA NAVIGATION *****/
 
-.menu-item i._before, .rtl .menu-item i._after {
-    margin-right: .25em;
-    color: white;
-    background: black;
-    padding: 0.5em;
-    border-radius: 100%;
-}
 .social-media-menu li {
     display: inline-block;
 }
-.social-media-menu a {
-    width: 1em;
-}
 
-.social-media-menu span {
-    display: none;
-}
-
-.icon-twitter{
+.icon-twitter, .icon-facebook, .icon-linkedin {
     background-color: black;
-    border-radius:50%;
     color: white;
-    padding: 0.2em;
+    padding:.3em;
+    border-radius: 50%;
 }
+
+
 
 
 
