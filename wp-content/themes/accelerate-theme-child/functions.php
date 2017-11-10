@@ -46,7 +46,7 @@ function create_custom_post_types() {
             ),
             'public' => true,
             'has_archive' => false,
-            'rewrite' => array( 'slug' => 'about' ),
+            'rewrite' => array( 'slug' => 'our-services' ),
             
         )
     );
