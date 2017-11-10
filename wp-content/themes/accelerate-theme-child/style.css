@@ -250,7 +250,7 @@ text-align: center;
     display: inline-block;
 }
 .social-media-menu a {
-    width: 2em;
+    width: 1em;
 }
 
 .social-media-menu span {
@@ -260,7 +260,11 @@ text-align: center;
 .icon-twitter{
     background-color: black;
     border-radius:50%;
+    color: white;
+    padding: 0.2em;
 }
+
+
 
 /***** 404 page *******/
 .page-title {

@@ -2,10 +2,7 @@
 /**
  * The template for displaying about page
  *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site will use a
- * different template.
+ *
  *
  * @package WordPress
  * @subpackage Accelerate Marketing
@@ -20,6 +17,7 @@ get_header(); ?>
             <div class="site-content">
                 <h4>Our Services</h4>
                 <p>We take pride in our clients and the content we creat for them. Here's a brief overview of our offered services.</p>
+                <?php query_posts ('posts_per_page=4&post_type=our_services'); ?>
                 <?php while ( have_posts() ): the_post();
                     $image_4 = get_field('image_4');
                     $size = "full";
@@ -34,6 +32,7 @@ get_header(); ?>
                         </figure>
                     </li>
                     <?php endwhile; //end of loop. ?>
+                    <?php wp_reset_query(); //resets altered query back to loop. ?>
                 </ul>
         
             <div id="navigation" class="container">
