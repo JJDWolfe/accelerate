@@ -241,13 +241,16 @@ text-align: center;
 
 .social-media-menu li {
     display: inline-block;
+    width: 40px;
+    padding:7px 7px;
+    border-radius: 50%;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
 }
 
 .icon-twitter, .icon-facebook, .icon-linkedin {
-    background-color: black;
     color: white;
-    padding:.3em;
-    border-radius: 50%;
 }
 
 /**** ABOUT *****/
@@ -255,6 +258,7 @@ text-align: center;
 .work-with-us {
     border-top: dotted 1px #bfbfbf;
 }
+
 .interested {
     width: 50%;
     float: left;
