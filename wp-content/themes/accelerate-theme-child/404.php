@@ -1,29 +1,24 @@
 <?php
 /**
- * The template for displaying 404 pages (not found)
- *
- * @package WordPress
- * @subpackage Accelerate
- * @since Acclerate
- */
-
+* Template Name: 404 page
+* 
+* The template for displaying a full width page without a sidebar. 
+* 
+* @package WordPress
+* @subpackage Accelerate Marketing
+* @since Accelerate Marketing 1.0
+*/ 
 get_header(); ?>
-
-	<div id="primary" class="main-content">
-		<main class="site-content" >
-
-			<section class="error-404 not-found">
-				<header class="page-header">
-					<h1 class="page-title"><?php _e( 'Whoops! You took a wrong turn!', 'Accelerate' ); ?></h1>
-				</header><!-- .page-header -->
-               
-				<div class="page-content">
-					<p><?php _e( 'Sorry, this page no longer exists, has never existed or has been moved. We feel like complete jerks for totally misleading you. <br> Feel free to take a look around at our <a href="#"><span class="green-text">blog</span></a> or some of our featured <a href="#"><span class="green-text">work</span></a>.', 'Accelerate' ); ?></p>
-
-				</div><!-- .page-content -->
-			</section><!-- .error-404 -->
-
-		</main><!-- .site-main -->
-	</div><!-- .content-area -->
+  <div class="content-section">
+      <div class="content-404">
+        <h2 class="headline-404">Whoops, Took a Wrong Turn...</h2>
+        <p class="message-404">
+          Sorry, this page no longer exists, never existed or has been moved.  We feel like complete jerks for totally misleading you.
+        </p>
+        <p class="message-404">
+          Feel free to take a look around our <a href="localhost/accelerate/blog/">blog</a> or some our featured <a href="localhost/accelerate/featured-work/">work</a>.  
+        </p>
+      </div>
+  </div>
 
 <?php get_footer(); ?>
