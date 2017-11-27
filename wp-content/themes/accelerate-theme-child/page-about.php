@@ -12,7 +12,7 @@ get_header(); ?>
 	<section id="primary" class="home-page hero-content">
 		<div class="main-content" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
-				<h2><span class="about-co"><span style="color:#45ac9d";>Accelerate</span> is a strategy and marketing agency located in the heart of NYC. Our goal is to build businesses by making our clients visible and making their customers smile.</span></h2>
+				<h2 class="hero-content"><span class="about-co"><span style="color:#45ac9d";>Accelerate</span> is a strategy and marketing agency located in the heart of NYC. Our goal is to build businesses by making our clients visible and making their customers smile.</span></h2>
             <?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
 	</section><!-- #primary -->
@@ -22,7 +22,7 @@ get_header(); ?>
             <div class="site-content">
                 <section class="about-us">
                     
-                    <div class="">
+                    <div class="about-headline">
                             <h3>Our Services</h3>
                             <p>We take pride in our clients and the content we create for them. <br> Here is a brief overview of our offered services.</p>
 		                </div>
@@ -36,15 +36,16 @@ get_header(); ?>
                         
                         
             
-                        <li class="">
-                            <h2><?php the_title(); ?></h2>
-                            <?php the_content(); ?>
-                            
+                        <li class="about-info">
+                                                  
                             <figure class="about-images">                            
                             <?php if($image_1) { ?>
                                 <?php echo wp_get_attachment_image( $image_1, $size ); ?>
                             <?php } ?>
                             </figure>
+                        
+                            <h2><?php the_title(); ?></h2>
+                            <?php the_content(); ?>
                             
                         </li>
                     </ul>

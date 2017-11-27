@@ -186,6 +186,52 @@ text-align: center;
     padding-left: 10px;
 }
 
+/*Home Page Twitter Feed*/
+#secondary{
+	max-width: 470px;
+	margin-right: 275px;
+	float:right;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+
+.PI_SimpleTwitterTweets h3{
+	font-family: 'Montserrat';
+	font-size:16px;
+	color: #a6a6a6 !important ;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	margin-top: 36px !important;
+}
+
+.PI_SimpleTwitterTweets{
+	border-bottom: none !important;
+}
+
+ul.tweets{
+	list-style-type: none;
+	margin-left: 0px;
+	font-family: 'Montserrat';
+	font-size: 24pt;
+	line-height: 42pt;
+}
+
+li.tweets{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16.5pt;
+	line-height: 28.5pt;
+}
+
+.follow-us{
+	font-family: 'Montserrat';
+	font-size: 16px;
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+	margin-left: 40px;
+	margin-top: 50px;
+}
+
 /****** NINJA FORM ******/
 
 .ninja-forms-req-symbol {
@@ -279,6 +325,65 @@ text-align: center;
     float:right;
     margin-bottom: 50px;
     margin-top: 50px;
+}
+.hero-content{
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    margin: 0 0 3em;
+}
+
+.about-co{
+   width:20%;    
+}
+
+.about-us .site-content {
+  max-width: 550px;
+}
+
+.about-headline h3{
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.about-headline p{
+    text-align: center;
+    justify-content: center;
+}
+ 
+
+.our-services {
+  margin: auto;
+  max-width: 800px;
+  padding-top: 50px;
+}
+
+.about-info{
+  list-style-type: none;
+  list-style: none;
+}
+
+.about-info figure:nth-child(odd){
+    float: left;
+}
+
+.about-images:nth-child(even){
+    float:left;
+}
+
+
+
+.about-info p {
+  text-align: justify;
+}
+
+.about-images{
+    width: 30%;
+    padding-top: 20px;
 }
 
 
