@@ -188,11 +188,8 @@ text-align: center;
 
 /*Home Page Twitter Feed*/
 #secondary{
-	max-width: 470px;
-	margin-right: 275px;
+	width: 50%;
 	float:right;
-	margin-top: 50px;
-	margin-bottom: 70px;
 }
 
 .PI_SimpleTwitterTweets h3{
@@ -212,14 +209,11 @@ ul.tweets{
 	list-style-type: none;
 	margin-left: 0px;
 	font-family: 'Montserrat';
-	font-size: 24pt;
-	line-height: 42pt;
 }
 
 li.tweets{
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16.5pt;
-	line-height: 28.5pt;
+	
 }
 
 .follow-us{
