@@ -187,10 +187,12 @@ text-align: center;
 }
 
 /*Home Page Twitter Feed*/
+
 #secondary{
 	width: 50%;
 	float:right;
 }
+
 
 .PI_SimpleTwitterTweets h3{
 	font-family: 'Montserrat';

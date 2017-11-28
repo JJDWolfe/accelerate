@@ -52,12 +52,15 @@ get_header(); ?>
                     <?php the_excerpt(); ?>
                     <?php endwhile; ?>
                 <?php wp_reset_query(); ?>
-                
+            </div>
+            
+            <div class="twitter-module">
                 <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
                     <div id="secondary" class="widget-area" role="complementary">
 	                   <?php dynamic_sidebar( 'sidebar-2' ); ?>
-                    </div>
-                <?php endif; ?>
+                        <div class="read-more-link tw-right"><a href="http://twitter.com/skillcrush"><span>Follow Us</span> ›</a></div>
+                    </div>                 
+                <?php endif; ?>   
             </div>
         </div>
     </section>
