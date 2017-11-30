@@ -9,10 +9,10 @@
  */
 get_header(); ?>
 
-	<section id="primary" class="home-page hero-content">
+	<section id="primary" class="about-page hero-content">
 		<div class="main-content" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
-				<h2 class="hero-content"><span class="about-co"><span style="color:#45ac9d";>Accelerate</span> is a strategy and marketing agency located in the heart of NYC. Our goal is to build businesses by making our clients visible and making their customers smile.</span></h2>
+				<h2 class="hero-text"><span class="about-co"><span style="color:#45ac9d";>Accelerate</span> is a strategy and marketing agency located in the heart of NYC. Our goal is to build businesses by making our clients visible and making their customers smile.</span></h2>
             <?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
 	</section><!-- #primary -->
@@ -53,7 +53,7 @@ get_header(); ?>
                     <?php wp_reset_query(); //resets altered query back to loop. ?>
                 
                     <div id="navigation" class="container">
-	                   <div class="left"><a href="#">← <span>Interested in Working with Us?</span></a></div>
+	                   <div class="left"><a href="/contact-us/">← <span>Interested in Working with Us?</span></a></div>
                     </div>
             </section>
             </div>

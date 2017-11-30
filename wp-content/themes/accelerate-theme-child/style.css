@@ -240,7 +240,7 @@ li.tweets{
 }
 
 #nf-field-2-container {
-  
+  width: 340px;
   display: inline-block;
 }
 
@@ -251,6 +251,10 @@ li.tweets{
 #nf-field-2-wrap {
   float: left;
    
+}
+
+#content, .fw-title {
+  margin: 0 150px 0 150px;
 }
 
 .nf-form-title {
@@ -266,7 +270,7 @@ li.tweets{
     padding: 10px 60px;
     background-color: #45ac9d;
     color: white;
-    margin-right: 33%;
+    margin-right: 38.2%;
 }
 
 .nf-field-label label {
@@ -297,40 +301,27 @@ li.tweets{
 
 /**** ABOUT *****/
 
-.work-with-us {
-    border-top: dotted 1px #bfbfbf;
+.about-page{
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    height: 40%;
+    margin: 0 0 80px;
+    padding: 100px 0;
+	text-align: center;
 }
 
-.interested {
-    width: 50%;
-    float: left;
-    margin: 60px 0 0 0;
-    
-}
 
-.contact-button {
-    background: #45ac9d;
-    color: #fff !important;
-    font: bold 1.17em/2.77 'Montserrat', "Open Sans", Arial, sans-serif;
-    display: inline-block;
-    height: 55px;
-    min-width: 250px;
-    padding: 0 20px;
-    text-align: center;
-    text-decoration: none;
-    float:right;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
 .hero-content{
     color: #fff;
     font-family: 'Open Sans';
     font-weight: normal;
-    margin: 0 0 3em;
+    
 }
 
-.about-co{
-   width:20%;    
+.hero-text{
+    width: 75%;
+    height: 30%;
+    padding-left:3%;
+    
 }
 
 .about-us .site-content {
@@ -371,15 +362,15 @@ li.tweets{
     float:left;
 }
 
-
-
 .about-info p {
   text-align: justify;
+    
 }
 
 .about-images{
     width: 30%;
     padding-top: 20px;
+    float: left;
 }
 
 
